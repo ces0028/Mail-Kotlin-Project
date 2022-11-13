@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="matchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="wrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="matchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btnCancle" parent="wrapWrap">
+        <item name="backgroundTint">@color/gray</item>
+        <item name="android:text">@string/cancle</item>
+    </style>
+    <style name="btnSend" parent="wrapWrap">
+        <item name="backgroundTint">@color/yellow</item>
+        <item name="android:text">@string/send</item>
+    </style>
+    <style name="fab" parent="wrapWrap">
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="backgroundTint">@color/yellow</item>
+        <item name="android:clickable">true</item>
+        <item name="android:text">@string/write</item>
+    </style>
+    <style name="MaterialTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    </style>
+    <style name="recyclerView" parent="matchMatch">
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
